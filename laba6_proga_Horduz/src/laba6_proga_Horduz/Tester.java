@@ -2,15 +2,15 @@ package laba6_proga_Horduz;
 
 public class Tester {
 	public static void main(String[] args) {
-		Test(createRandomArray(10));
-		Test(createRandomArray(10));
-		Test(createRandomArray(10));
-		Test(createRandomArray(10));
-		Test(createRandomArray(10));
-		Test(createRandomArray(10));
+		test(createRandomArray(10));
+		test(createRandomArray(10));
+		test(createRandomArray(10));
+		test(createRandomArray(10));
+		test(createRandomArray(10));
+		test(createRandomArray(10));
 	}
 	
-	static void Test(float[] a) {
+	static void test(float[] a) {
 		Printer printer = new RowPrinter();
 		Sorter sorter1 = new BubbleSorter();
 		Sorter sorter2 = new InsertionSorter();
